@@ -1,0 +1,26 @@
+@import "./footer";
+@import "./header.scss";
+@import "./herro";
+@import "./section-big";
+@import "./responsive/main320x567";
+@import "./responsive/main568x989";
+@import "./responsive/main990x1439";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  a {
+    text-decoration: none;
+  }
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 128px;
+}
+
+@font-face {
+  font-family: Bitter;
+  src: url(../assets/fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}

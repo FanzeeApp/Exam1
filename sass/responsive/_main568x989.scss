@@ -1,0 +1,122 @@
+@media (min-width: 568px) and (max-width: 989px) {
+  .section-big {
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+  }
+
+  .section-texttwo {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 0 10px !important;
+  }
+  .img-foot {
+    width: 404px !important;
+  }
+  .footermenu {
+    a {
+      display: none !important;
+    }
+  }
+  .big-chiziq {
+    display: none !important;
+  }
+  .container {
+    padding: 0 48px !important;
+  }
+  //   .pos-text {
+  //     position: relative !important;
+  //     left: 270px !important;
+  //   }
+
+  .main-two {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 12px !important;
+  }
+  .chiziqlar {
+    display: none !important;
+  }
+  .mains-row {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 0 48px !important;
+    img {
+      min-width: 472px !important;
+    }
+  }
+  .text-twodescription {
+    min-width: 40px !important;
+  }
+  .text-twotitle {
+    min-width: 402px;
+    text-align: left;
+    font-size: 24px !important;
+  }
+  .search-container {
+    display: none !important;
+  }
+  .imgblok {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .row-posit {
+    position: relative !important;
+    top: 40px !important;
+    display: flex !important;
+    align-items: start !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    .img-posit {
+      display: flex !important;
+      flex-direction: row !important;
+      gap: 54px !important;
+    }
+  }
+  .text-buttons {
+    button {
+      display: none !important;
+    }
+  }
+  .img-position {
+    background: none !important;
+    height: 400px !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  .frame-end {
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    gap: 50px !important;
+    .my-internet {
+      display: flex !important;
+      align-items: center !important;
+      flex-direction: row !important;
+      gap: 200px !important;
+    }
+    .kurs-valyuta {
+      a {
+        display: none !important;
+      }
+    }
+  }
+
+  .img-section2 {
+    display: none !important;
+  }
+
+  .main-text {
+    min-width: 410px !important;
+  }
+
+  .text-description,
+  .text-title,
+  .chiziq {
+    min-width: 480px !important;
+  }
+}

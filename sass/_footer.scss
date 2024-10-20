@@ -1,0 +1,102 @@
+.div-footer {
+  margin-top: 310px;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  flex-direction: column;
+
+  .footer-row {
+    display: flex;
+    flex-direction: row;
+    .img-foot {
+      width: 700px;
+    }
+    .footermenu {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      a {
+        text-decoration: none;
+        color: rgb(50, 46, 41);
+        font-family: Bitter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+    }
+  }
+  .frame-end {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 160px;
+    a {
+      color: rgb(50, 46, 41);
+      font-family: Montserrat;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+    .kurs-valyuta {
+      border-radius: 28px;
+
+      /* Gray */
+      background: rgb(136, 140, 148);
+      a {
+        padding: 12px 24px 12px 24px;
+
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+    }
+    .endlogos {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+    }
+    .main-col {
+      display: flex;
+      align-items: start;
+      flex-direction: column;
+      gap: 16px;
+      a {
+        color: rgb(50, 46, 41);
+        font-family: Bitter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+    }
+    .chiziq-end {
+      height: 107px;
+      border: 1px solid rgb(224, 224, 224);
+    }
+    .my-internet {
+      display: flex;
+      align-items: end;
+      flex-direction: column;
+      gap: 36px;
+      a {
+        color: rgb(50, 46, 41);
+        font-family: Bitter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+    }
+  }
+}

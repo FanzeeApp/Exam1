@@ -1,0 +1,49 @@
+@media (min-width: 990px) and (max-width: 1200px) {
+  .img-foot {
+    width: 500px !important;
+  }
+  .frame-end {
+    gap: 110px !important;
+  }
+  .container {
+    padding: 0 48px !important;
+  }
+  .section-big {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center !important;
+    .text-title {
+      width: 100% !important;
+    }
+    #imgslash1 {
+      display: none !important;
+    }
+    #imgslash2 {
+      display: flex !important;
+    }
+
+    .text-description {
+      width: 100% !important;
+    }
+    .chiziq {
+      width: 894px !important;
+    }
+  }
+  .imgblok {
+    padding: 20px !important;
+  }
+
+  .big-chiziq {
+    display: none;
+  }
+  .row-posit {
+    display: flex;
+    align-items: center;
+    gap: 280px;
+  }
+  .items {
+    a {
+      display: none;
+    }
+  }
+}

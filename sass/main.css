@@ -646,6 +646,135 @@ header {
   background: rgb(211, 165, 98);
 }
 
+@media (min-width: 320px) and (max-width: 567px) {
+  .logo {
+    width: 138px !important;
+  }
+  .section-big {
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+  }
+  .section-texttwo {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 0 5px !important;
+  }
+  .img-foot {
+    width: 204px !important;
+  }
+  .footermenu a {
+    display: none !important;
+  }
+  .big-chiziq {
+    display: none !important;
+  }
+  .container {
+    padding: 0 24px !important;
+  }
+  .main-two {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 12px !important;
+  }
+  .chiziqlar {
+    display: none !important;
+  }
+  .mains-row {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 0 24px !important;
+  }
+  .mains-row img {
+    width: 172px !important;
+  }
+  .text-twodescription {
+    min-width: 20px !important;
+    font-size: 13px !important;
+  }
+  .text-twotitle {
+    min-width: 102px;
+    text-align: left;
+    font-size: 24px !important;
+    font-size: 20px !important;
+  }
+  .search-container {
+    display: none !important;
+  }
+  .imgblok {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .p-one {
+    font-size: 24px !important;
+  }
+  .p-two {
+    min-width: 101px !important;
+    font-size: 14px !important;
+  }
+  .row-posit {
+    position: relative !important;
+    top: 60px !important;
+    display: flex !important;
+    align-items: start !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .row-posit .img-posit {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 24px !important;
+    padding-left: 50px !important;
+  }
+  .row-posit .img-posit img {
+    width: 24px;
+    height: 24px;
+  }
+  .text-buttons button {
+    display: none !important;
+  }
+  .img-position {
+    background: none !important;
+    height: 200px !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+  .chiziq-end {
+    display: none !important;
+  }
+  .frame-end {
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+  .frame-end .my-internet {
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    gap: 100px !important;
+  }
+  .frame-end .kurs-valyuta a {
+    display: none !important;
+  }
+  .img-section2 {
+    display: none !important;
+  }
+  .main-text {
+    min-width: 110px !important;
+  }
+  .text-description,
+  .text-title,
+  .chiziq {
+    width: 240px !important;
+  }
+  .pos-text {
+    display: none !important;
+  }
+}
 @media (min-width: 568px) and (max-width: 989px) {
   .section-big {
     display: flex !important;
